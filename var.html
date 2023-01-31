@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+   <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <table>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="input" placeholder="0" style="font-size: 50px;text-align: right;" disabled>
+            </td>
+        </tr>
+        <tr> 
+            <td class="operators">
+                <button>+</button>
+            </td>
+            <td  class="operators">
+                <button>-</button>
+            </td>
+            <td  class="operators">
+                <button>*</button>
+            </td>
+            <td  class="operators">
+                <button>÷</button>
+            </td>
+        </tr>
+        <tr >
+            <td  class="numbers" >
+                <button>7</button>
+            </td>
+            <td class="numbers" >
+                <button>8</button>
+            </td>
+            <td class="numbers" >
+                <button>9</button>
+            </td>
+           <td>
+            <button onclick="back()">←</button>
+           </td>
+        </tr>
+        </tr>
+        <tr>
+            <td class="numbers" >
+                <button>4</button>
+            </td>
+            <td class="numbers" >
+                <button>5</button>
+            </td>
+            <td class="numbers" >
+                <button>6</button>
+            </td>
+            <td rowspan="3" >
+                <button id="result">=</button>
+            </td>
+        <tr>
+            <td class="numbers" >
+                <button>1</button>
+            </td>
+            <td class="numbers" >
+                <button>2</button>
+            </td>
+            <td class="numbers" >
+                <button>3</button>
+            </td>
+           
+        </tr>
+        <tr>
+            <td class="numbers" >
+                <button>0</button>
+            </td>
+            
+            <td class="numbers" >
+                <button>.</button>
+            </td>
+           <td id="clear">
+            <button>C</button>
+           </td>
+        </tr>
+    </table>
+   <script src="main.js"></script>
+
+  </body>
+</html>
